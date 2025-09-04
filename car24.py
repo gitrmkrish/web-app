@@ -2,7 +2,9 @@ import pandas as pd
 import streamlit as st
 import pickle
 
-cars_df = pd.read_csv(r'C:\Users\HP\OneDrive\Documents\GitHub\web-app\cars24-car-price.csv')
+cars_df = pd.read_csv("https://raw.githubusercontent.com/gitrmkrish/web-app/main/cars24-car-price.csv")
+
+
 
 encode_dict = {'fuel_type': {
     'petrol': 1,
